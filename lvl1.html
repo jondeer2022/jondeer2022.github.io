@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <style>
+    #scoreTexte {
+      color : white;
+    }
+  </style>
+  
+</head>
+
+  <!-- Background couleur -->
+<body style="background: #51361a">
+  
+  <!-- Score -->
+  <h2 id="scoreTexte">Score : 
+    <span id="scoreMontant">0</span>
+  </h2>
+  <br>
+
+  <!-- Image button pour niveau -->
+  <div id="zoneNiveau">
+    <input type="image" id="lightgrass1" src="images/lightgrass.png"  height="200" width="250" onclick="nmbgenerator1(1); lightgrass1.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass2" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass2.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass3" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass3.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass4" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass4.style.visibility = 'hidden'">
+    <br>
+    
+    <input type="image" id="lightgrass5" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass5.style.visibility = 'hidden'">
+    <input type="image" id="darkgrass1" src="images/darkgrass.png" height="200" width="250" onclick="nmbgenerator1(2); darkgrass1.style.visibility = 'hidden'">
+    <input type="image" id="darkgrass2" src="images/darkgrass.png" height="200" width="250" onclick="nmbgenerator1(2); darkgrass2.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass6" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass6.style.visibility = 'hidden'">
+    <br>
+    
+    <input type="image" id="lightgrass7" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass7.style.visibility = 'hidden'">
+    <input type="image" id="darkgrass3" src="images/darkgrass.png" height="200" width="250" onclick="nmbgenerator1(2); darkgrass3.style.visibility = 'hidden'">
+    <input type="image" id="darkgrass4" src="images/darkgrass.png" height="200" width="250" onclick="nmbgenerator1(2); darkgrass4.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass8" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass8.style.visibility = 'hidden'">
+    <br>
+    
+    <input type="image" id="lightgrass9" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass9.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass10" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass10.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass11" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass11.style.visibility = 'hidden'">
+    <input type="image" id="lightgrass12" src="images/lightgrass.png" height="200" width="250" onclick="nmbgenerator1(1); lightgrass12.style.visibility = 'hidden'">
+    
+ <!-- Question -->
+    <div id="questions"></div>
+    <input type="text" id="userAnwser">
+    <input type="button" id="submit" onclick="submitAnwser(1)" value="Soumettre réponse">
+    <div id="confirmation"></div>
+  </div>
+  
+  <!-- Button de retour -->
+  <h1><a href="/" id="Back-button">&larr;</a></h1>
+
+  <script src="script.js"></script>
+</body>
+  
+</html>
