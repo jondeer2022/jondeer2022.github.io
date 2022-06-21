@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* Bordure verticale pour tableau */
+table {
+  border-collapse : collapse ;
+  border : 2px solid ;
+  letter-spacing : 2px ;
+}
+
+th, td {
+    border-right: 1px solid #000000;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+/* bordure horizotal pour tableau */
+  table {} 
+table tbody {} 
+table tbody tr { 
+	border-bottom: 1px solid rgba(0,0,0,.3); 
+} 
+  
+/* BackGround */
+body {
+  background-image: url("images/jon deer lawn mover.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+  
+  /* Images */
+.left {
+  display: block;
+  margin-left: 80%;
+  margin-right: 50%;
+  width: auto ;
+}
+
+#titreRouge {
+  color:red;
+}
+
+#titreOrange {
+  color:orange;
+}
+
+#titreJaune {
+  color:yellow;
+}
+
+#titreVert {
+  color:green;
+}
+  
+#titreBleu {
+  color:blue;
+}
+
+#titreMagenta {
+  color:magenta;
+}
+
+#titreMauve {
+  color:purple;
+}
